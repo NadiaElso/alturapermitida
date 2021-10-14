@@ -1,5 +1,5 @@
 let alturapersona: number = document.getElementById("alturapersona");
-let alturapermitida: number = 130;
+const alturapermitida: number = 130;
 let btn = document.getElementById("btn");
 btn.addEventListener("click", () => {
   if (alturapersona.value > alturapermitida) {
